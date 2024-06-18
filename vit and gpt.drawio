@@ -1,0 +1,92 @@
+<mxfile host="app.diagrams.net" modified="2024-05-10T05:36:41.280Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="qXgyfn75bsuHxerlmodT" version="24.3.1" type="google" pages="3">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XOP3v2Cdt7fz1ZplLO7K-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;ViT&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="340" y="158" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XOP3v2Cdt7fz1ZplLO7K-5" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;GPT 2&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="340" y="390" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XOP3v2Cdt7fz1ZplLO7K-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XOP3v2Cdt7fz1ZplLO7K-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="240" as="sourcePoint" />
+            <mxPoint x="400" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XOP3v2Cdt7fz1ZplLO7K-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XOP3v2Cdt7fz1ZplLO7K-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="240" as="sourcePoint" />
+            <mxPoint x="400" y="491" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q3-QNc9lryE8M249btE1-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XOP3v2Cdt7fz1ZplLO7K-12" target="XOP3v2Cdt7fz1ZplLO7K-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XOP3v2Cdt7fz1ZplLO7K-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Preprossed Image&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XOP3v2Cdt7fz1ZplLO7K-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XOP3v2Cdt7fz1ZplLO7K-12" target="XOP3v2Cdt7fz1ZplLO7K-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="200" as="sourcePoint" />
+            <mxPoint x="450" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XOP3v2Cdt7fz1ZplLO7K-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Image&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="345" y="-20" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XOP3v2Cdt7fz1ZplLO7K-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XOP3v2Cdt7fz1ZplLO7K-14" target="XOP3v2Cdt7fz1ZplLO7K-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="200" as="sourcePoint" />
+            <mxPoint x="450" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tw9RMzHXTqmEo4n53c7a-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XOP3v2Cdt7fz1ZplLO7K-19" target="XOP3v2Cdt7fz1ZplLO7K-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XOP3v2Cdt7fz1ZplLO7K-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Processed ViT Output&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="350" y="250" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PzEXexLUpdaZrH4kcPB_-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="XOP3v2Cdt7fz1ZplLO7K-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="340" as="sourcePoint" />
+            <mxPoint x="470" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1OQEtM2rIE5b1OU9Nh--1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Predicted Latex&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="490" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LyCofUKzgUiNB9CuIE6e-1" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jj2DbW92e9KiW9HXaRWr" name="Page-2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JpNKYt9t4b4sAjYvq_9_-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://jalammar.github.io/images/gpt2/gpt-2-simple-output-3.gif;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="745" height="373.12" as="geometry" />
+        </mxCell>
+        <mxCell id="JpNKYt9t4b4sAjYvq_9_-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://jalammar.github.io/images/gpt2/gpt2-self-attention-qkv-2-2.png;" vertex="1" parent="1">
+          <mxGeometry x="310" y="620" width="740" height="382.95" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iU3usfIjme9EVduduWdB" name="Page-3">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e1JPcTdv3It9J3Wv-LEm-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://machinelearningmastery.com/wp-content/uploads/2022/02/vit_1.png;" vertex="1" parent="1">
+          <mxGeometry x="260" y="60" width="503.3" height="380" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
